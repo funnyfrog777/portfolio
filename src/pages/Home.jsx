@@ -18,10 +18,10 @@ function Home() {
         </p>
         {/* CVS -> Canton Public Library -> Sphere -> BotW */}
         <div className='Projects'>
-          <Card title="User Research" img="/images/cvs-project.png" page="/cvs"/>
-          <Card title="Redesign" img="/images/canton-project.png" page="/library"/>
-          <Card title="Iteration" img="/images/sphere-project.png" page="/sphere"/>
-          <Card title="Development" img="/images/botw-project.png" page="/botw"/>
+          <Card title="User Research" img="/images/cvs-project.png" page="/portfolio/cvs"/>
+          <Card title="Redesign" img="/images/canton-project.png" page="/portfolio/library"/>
+          <Card title="Iteration" img="/images/sphere-project.png" page="/portfolio/sphere"/>
+          <Card title="Development" img="/images/botw-project.png" page="/portfolio/botw"/>
         </div>
       </body>
       <footer className='App-footer'>

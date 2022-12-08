@@ -7,7 +7,7 @@ const CVS = () => {
   return (
     <div className="App">
       <header className='App-header'>
-        <Link to="/" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
+        <Link to="/portfolio" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
         <h1>CVS Self-Checkout &#40;in-progress&#41;</h1>
         <img className="img-display" src={process.env.PUBLIC_URL+"/images/cvs-project.svg"}/>
       </header>

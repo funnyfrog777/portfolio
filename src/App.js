@@ -15,11 +15,11 @@ function App() {
       <BrowserRouter>
         <Navigation/>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/cvs" element={<CVS />} />
-          <Route path="/library" element={<Library />} />
-          <Route path="/sphere" element={<Sphere />} />
-          <Route path="/botw" element={<BOTW />} />
+          <Route exact path="/portfolio" element={<Home />} />
+          <Route path="/portfolio/cvs" element={<CVS />} />
+          <Route path="/portfolio/library" element={<Library />} />
+          <Route path="/portfolio/sphere" element={<Sphere />} />
+          <Route path="/portfolio/botw" element={<BOTW />} />
         </Routes>
       </BrowserRouter>
     </div>

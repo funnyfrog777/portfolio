@@ -7,7 +7,7 @@ const BOTW = () => {
   return (
     <div className="App">
       <header className='App-header'>
-      <Link to="/" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
+      <Link to="/portfolio" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
       <h1>Breath of the Wild Recipes &#40;in-progress&#41;</h1>
       <img className="img-display" src={process.env.PUBLIC_URL+"/images/botw-project.svg"}/>
       <a className="web-link small-font" href="https://funnyfrog777.github.io/botw-recipes/" target="_blank" rel="noopener noreferrer"><i>Breath of the Wild Recipe Website</i></a>
