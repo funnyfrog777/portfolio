@@ -7,7 +7,7 @@ const Library = () => {
   return (
     <div className="App">
       <header className='App-header'>
-        <Link to="/" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
+        <Link to="/portfolio" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
         <h1>Canton Public Library &#40;in-progress&#41;</h1>
         <img className="img-display" src={process.env.PUBLIC_URL+"/images/canton-project.svg"}/>
       <a className="web-link small-font" href="https://funnyfrog777.github.io/responsive-redesign/" target="_blank" rel="noopener noreferrer"><i>Canton Public Library Website Redesigned</i></a>
