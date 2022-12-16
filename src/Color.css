@@ -7,5 +7,26 @@
 }
 
 .aquamarine {
-    color: aquamarine
+    color: aquamarine;
+}
+
+.purple {
+    color: thistle;
+}
+
+.white {
+    color: white;
+}
+
+.user-research {
+    color: rgb(173, 198, 158);
+}
+.design {
+    color: rgb(140, 164, 191);
+}
+.iteration {
+    color: rgb(147, 138, 173);
+}
+.development {
+    color: rgb(222, 204, 145);
 }

@@ -1,3 +1,4 @@
+/* General App */
 .App {
   background-color: #0e0e0e;
   font-size: calc(10px + 2vmin);
@@ -12,6 +13,7 @@
   padding: 1vw 5vw 1vw 5vw;
 }
 
+/* Links */
 .link {
   color:rgb(255, 255, 255);
 }
@@ -36,6 +38,11 @@
   text-decoration: underline;
 }
 
+/* Fonts */
+.smallest-font {
+  font-size: calc(5px + 1vmin);
+}
+
 .small-font {
   font-size: calc(2px + 2vmin);
 }
@@ -45,6 +52,7 @@
   padding: 0vw 10vw 5vw 10vw;
 }
 
+/* Header, Body, Footer */
 .App-header {
   min-height: 90vh;
   display: flex;
@@ -67,6 +75,7 @@
   min-height: 20vh;
 }
 
+/* Projects and Description */
 .Projects {
   display: flex;
   flex-direction: column;
@@ -75,27 +84,44 @@
   justify-content: center;
   gap: 20px 20px;
 }
-
 .description {
   font-size: calc(5px + 2vmin);
   padding: 0vw 10vw 5vw 10vw;
 }
-
-.Card {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
+.description img {
+  padding-top: 5vmin;
 }
-.Card:hover img{
+
+/* Project Cards */
+.Card {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 10vh;
+}
+.Card img:hover {
   filter: brightness(105%);
   transform: scale(1.02);
 }
 .Card img {
   transition: transform .5s ease;
+  width: 65vw;
+}
+.Card p {
+  width: 20vw;
+  padding-right: 4vw;
+  text-align: left;
+  font-size: calc(2px + 2vmin);
+  font-style: italic;
+}
+.Card h2 {
+  text-align: left;
+  padding-right: 4vw;
+  padding-top: 0%;
 }
 
+/* Title Card on Each Project Page */
 .img-display {
   height: 60vmin;
 }
@@ -106,4 +132,16 @@
 
 .left-align {
   text-align: left;
+}
+
+/* Project Overview on Each Project Page */
+.Project-Overview {
+  background-color: rgba(62, 71, 81, 0.5);
+  border-radius: 25px;
+}
+.Project-Overview h2 {
+  padding: 5vmin 5vmin 0vmin 5vmin;
+}
+.Project-Overview p {
+  padding: 0vmin 5vmin 5vmin 5vmin;
 }

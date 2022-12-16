@@ -7,15 +7,17 @@ const BOTW = () => {
   return (
     <div className="App">
       <header className='App-header'>
-      <Link to="/portfolio" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
+      <Link to="/portfolio#Development" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
       <h1>Breath of the Wild Recipes &#40;in-progress&#41;</h1>
       <img className="img-display" src={process.env.PUBLIC_URL+"/images/botw-project.svg"}/>
       <a className="web-link small-font" href="https://funnyfrog777.github.io/botw-recipes/" target="_blank" rel="noopener noreferrer"><i>Breath of the Wild Recipe Website</i></a>
       </header>
       <body className='App-body'>
         <div className="body left-align">
-          <h2>Project Overview</h2>
-          <p>This web application provides a way for users to quickly look through all the recipes they can make given the ingredients they own in the video game, <i>Breath of the Wild</i>. Each recipe card displays the required ingredients as well as the resale price. Users can also add recipes to their "Recipes to Make" cart that allows users to quickly see the total amount of rupees they can make if they made all the recipes they added. Users can also sort and filter by resale price if the user only want to sell cheap or expensive items.</p>
+          <div className="Project-Overview">
+            <h2>Project Overview</h2>
+            <p>This web application provides a way for users to quickly look through all the recipes they can make given the ingredients they own in the video game, <i>Breath of the Wild</i>. Each recipe card displays the required ingredients as well as the resale price. Users can also add recipes to their "Recipes to Make" cart that allows users to quickly see the total amount of rupees they can make if they made all the recipes they added. Users can also sort and filter by resale price if the user only want to sell cheap or expensive items.</p>
+          </div>
           <br/>
           <h2>Background</h2>
           <p>Cooking is a large part of the video game, <i>Breath of the Wild</i>. Cooked meals can be used to restore hearts or to sell for rupees (the in-game currency). However, there is no in-game recipe book, which forces the user to either remember the recipes they discover or Google them.</p>

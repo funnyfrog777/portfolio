@@ -1,0 +1,11 @@
+.Screen {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 2vmin 5vmin 0vmin 5vmin;
+}
+.Screen img {
+    width: 50vmin;
+    padding: 0vmin 7vmin 0vmin 0vmin;
+}

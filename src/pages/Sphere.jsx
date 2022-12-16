@@ -7,14 +7,16 @@ const Sphere = () => {
   return (
     <div className="App">
       <header className='App-header'>
-        <Link to="/portfolio" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
+        <Link to="/portfolio#Iteration" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
         <h1>Sphere &#40;in-progress&#41;</h1>
         <img className="img-display" src={process.env.PUBLIC_URL+"/images/sphere-project.svg"}/>
       </header>
       <body className='App-body'>
         <div className="body left-align">
-          <h2>Project Overview</h2>
-          <p><a className="web-link" href="https://www.ycombinator.com/companies/sphere" target="_blank" rel="noopener noreferrer">Sphere</a> is a online education platform that allows employors to assign employees 3-week livestream courses instructed by experts in the field. Through Sphere, employees can learn functional skills to apply to their work, submit online assignments, and network with fellow students and instructors.</p>
+          <div className="Project-Overview">
+            <h2>Project Overview</h2>
+            <p><a className="web-link" href="https://www.ycombinator.com/companies/sphere" target="_blank" rel="noopener noreferrer">Sphere</a> is a online education platform that allows employors to assign employees 3-week livestream courses instructed by experts in the field. Through Sphere, employees can learn functional skills to apply to their work, submit online assignments, and network with fellow students and instructors.</p>
+          </div>
           <br/>
           <h2>Background</h2>
           <p>This group project was built with Tianran, Mehek, and Joyce. This interface we designed is for employees who take courses through Sphere. It allows users to navigate easily between livestreams, assignments, and networking.</p>

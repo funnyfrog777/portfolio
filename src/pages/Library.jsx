@@ -7,15 +7,17 @@ const Library = () => {
   return (
     <div className="App">
       <header className='App-header'>
-        <Link to="/portfolio" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
+        <Link to="/portfolio#Redesign" className="go-back-link small-font"><i>&#8592; go back to home page</i></Link>
         <h1>Canton Public Library &#40;in-progress&#41;</h1>
         <img className="img-display" src={process.env.PUBLIC_URL+"/images/canton-project.svg"}/>
       <a className="web-link small-font" href="https://funnyfrog777.github.io/responsive-redesign/" target="_blank" rel="noopener noreferrer"><i>Canton Public Library Website Redesigned</i></a>
       </header>
       <body className='App-body'>
         <div className="body left-align">
-          <h2>Project Overview</h2>
-          <p>I often use the Canton Public Library website to search and checkout books. However, the layout, the numerous buttons/tabs, and squished words make it difficult to navigate, which is why I decided to redesign the home page of the website.</p>
+          <div className="Project-Overview">
+            <h2>Project Overview</h2>
+            <p>I often use the Canton Public Library website to search and checkout books. However, the layout, the numerous buttons/tabs, and squished words make it difficult to navigate, which is why I decided to redesign the home page of the website.</p>
+          </div>
           <br/>
           <h2>Background</h2>
           <p>The Canton Public library provides a variety of services. You can checkout books or movies, attend events, purchase museum tickets, apply for a passport, etc.</p>
