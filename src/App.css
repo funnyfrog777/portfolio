@@ -13,6 +13,14 @@
   padding: 1vw 5vw 1vw 5vw;
 }
 
+.general-image {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 85vw;
+}
+
 /* Links */
 .link {
   color:rgb(255, 255, 255);

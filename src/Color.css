@@ -14,8 +14,24 @@
     color: thistle;
 }
 
-.white {
-    color: white;
+.blue {
+    color:darkturquoise;
+}
+
+.green-yellow {
+    color:rgb(137, 202, 40);
+}
+
+.azure {
+    color:rgb(176, 209, 209)
+}
+
+.cornsilk {
+    color:cornsilk
+}
+
+.mintcream {
+    color: mintcream
 }
 
 .user-research {

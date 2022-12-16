@@ -1,0 +1,13 @@
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.side-by-side img {
+    width: 45vw;
+}
+.side-by-side ul {
+    width: 40vw;
+    padding-right: 5vw;
+}

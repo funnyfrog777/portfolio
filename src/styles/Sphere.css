@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.row img, ul {
+    overflow-wrap: break-word;
+    width: 40vw;
+    height: auto;
+}
+
+.bullet li {
+    overflow-wrap: break-word;
+    width: 35vw;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    overflow-wrap: break-word;
+    text-align: left;
+}
